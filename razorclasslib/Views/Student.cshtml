@@ -1,0 +1,9 @@
+@model razorclasslib.Models.CustomObject;
+
+public class @Model.Name 
+{
+	@foreach(var field in Model.Fields)
+	{ 
+		<div>public @field.TypeName @field.FieldName {get;set;}</div> 
+	} 
+}
