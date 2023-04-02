@@ -2,14 +2,14 @@
 
 Razor templating in console application
 
-## Run
+## Running Instructions
 
 1. Navigate to console project
 ```sh
 cd console
 ```
 
-2. Run Project
+2. Run project
 ```sh
 dotnet run
 ```
